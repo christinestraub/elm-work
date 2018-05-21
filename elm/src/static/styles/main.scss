@@ -1,0 +1,46 @@
+$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
+@import '~bootstrap-sass/assets/stylesheets/bootstrap/_mixins.scss';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+// can add Boostrap overrides, additional Sass/CSS below...
+body {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #222222;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-inverse {
+    background-color: #00bc8c;
+}
+
+.table-striped tbody tr.selected td {
+    background-color: #9932CC;
+}
+
+.table-striped tbody tr.selected th {
+    background-color: #9932CC;
+}
+
+.btn-login {
+    margin-top: 7px;
+    margin-right: 5px
+}
+
+.div-username {
+    position: fixed;
+    top: 0;
+    right: 250px;
+    z-index: 9999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 12px;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #0a565c;
+}
